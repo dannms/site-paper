@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Design Studio</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- vendor -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.css">
+    <link rel="stylesheet" href="assets/vendor/aos/dist/aos.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+            <div class="logo mr-auto">
+                <a href="index.html"><img src="assets/images/logo.svg" alt="Paper Design Studio"></a>
+            </div>
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="#hero">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <h1>Bem vindo a <br> Paper Design Studio!</h1>
+                    <h2>Somos um estudio de design digital</h2>
+                    <div class="d-lg-flex">
+                        <a href="#servicos" class="btn-hero scrollto">Ver mais</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/images/banner.png" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Serviços</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <h4><a href="">Lorem Ipsum</a></h4>
+                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                    data-aos-delay="200">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-file"></i></div>
+                        <h4><a href="">Sed ut perspici</a></h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                    data-aos-delay="300">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-tachometer"></i></div>
+                        <h4><a href="">Magni Dolores</a></h4>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                    data-aos-delay="400">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-layer"></i></div>
+                        <h4><a href="">Nemo Enim</a></h4>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Contato</h2>
+                <p>Entre em contato através do formulário, ou envie um e-mail diretamente para: <strong><a class="mail"
+                            href="mailto:contato@studiopaper.com.br">contato@studiopaper.com.br</a></strong>.</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch mx-auto">
+                    <form action="#" method="post" role="form" class="php-email-form">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
+                                    data-msg="Please enter at least 4 chars" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">E-mail</label>
+                                <input type="email" class="form-control" name="email" id="email" data-rule="email"
+                                    data-msg="Please enter a valid email" />
+                                <div class="validate"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Assunto</label>
+                            <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
+                                data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Mensagem</label>
+                            <textarea class="form-control" name="message" rows="10" data-rule="required"
+                                data-msg="Please write something for us"></textarea>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="loading">Carregando</div>
+                            <div class="error-message">Houve um erro, tente novamente!</div>
+                            <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Enviar mensagem</button></div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                <strong><span>&copy; 2020</span></strong>. Todos os direitos reservados
+            </div>
+            <div class="credits">
+                Desenvolvido por <a href="studiopaper.com.br">Studio Paper</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/vendor/jquery/jquery.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/vendor/aos/dist/aos.js"></script>
+
+    <!-- js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
